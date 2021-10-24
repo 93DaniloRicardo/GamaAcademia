@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Index_css.css" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="lista de cadastro">
+        <div class="menuNav"> <!--Menu de Navegacao-->
+            <div class="home"> <a href="home.html">Home</a></div>
+            <div class="Cadastro"> <a href="cadastro.html"> Cadastro</a></div>
+            <div class="quemSomos"> <a href="quemSou.html">Sobre mim</a></div>
+        </div>
+        <div id="cabecalho">
+            <h3 class="lista">Cadastro</h3>
+        </div>
+        <div id="formulario">
+            <div>
+                <div class="form">
+                    <!--Nome da pessoa- -->
+                    <label for="nome" id="direita">* Nome Completo: </label><br>
+                    <input type="text" id="pnome" name="nome" class="inputTxt" /> <br>
+                </div>
+            </div>
+
+            <div>
+                <!--email da pessoa-->
+                <div class="form">
+                    <label for="email" id="direita">E-mail: </label><br>
+                    <input type="email" id="email" name="email" class="inputTxt" /><br>
+                </div>
+            </div>
+            <div>
+                <!--email da pessoa-->
+                <div class="form">
+                    <label for="nasc" id="direita"> Data de Nasc.: </label><br>
+                    <input type="date" id="nasc" name="nasc" class="inputTxt" /><br>
+                </div>
+            </div>
+
+            <div id="RG_CPF">
+                <div>
+                    <!--RG da pessoa- -->
+                    <div class="form">
+                        <label for="RG" id="direita"> RG: </label><br>
+                        <input type="number" id="RG" name="RG" class="inputTxt" /><br>
+                    </div>
+                </div>
+
+                <div>
+                    <!--CPF da pessoa- -->
+                    <div class="form">
+                        <label for="CPF" id="direita">* CPF: </label><br>
+                        <input type="number" id="CPF" name="CPF" /><br>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <!--Sexo das Pessoas-->
+                <div class="form">
+                    <label for="nome" id="direita">Sexo: </label><br>
+                    <select name="sexo" class="inputTxt">
+                        <option value="">Escolha o sexo</option>
+                        <option value="F">Feminino</option>
+                        <option value="M">Masculino</option>
+                        <option value="O">Outros</option>
+                    </select>
+                    <br>
+                </div>
+            </div>
+            <div id="tel_cel">
+                <!--Telefone da pessoa-->
+                <div class="form">
+                    <label for="telefone" id="direita">* Tel: </label><br>
+                    <input type="tel" id="tel" name="tel" />
+                </div>
+                <!--Celular da pessoa-->
+                <div class="form">
+                    <label for="celular" id="direita">* Cel: </label><br>
+                    <input type="tel" id="cel" name="cel" /><br>
+                </div>
+            </div>
+
+            <div id="end_num">
+                <div class="form">
+                    <!--Endereco da pessoa- -->
+                    <label for="Endereco" id="direita">* Endereço: </label><br>
+                    <input type="text" id="end" name="end" />
+                </div>
+                    <!--Numero do endereco da pessoa- -->
+                <div class="form">
+                    <label for="numero" id="direita"> * Num: </label><br>
+                    <input type="number" id="num" name="num" />
+                </div>
+            </div>
+
+            <div>
+                <!--CEP da pessoa-->
+                <div class="form"> 
+                    <label for="CEP" id="direita"> CEP: </label><br>
+                    <input type="number" id="CEP" name="CEP" /><br>
+                </div>
+            </div>
+
+            <div id="bai_cid_est">
+                <div>
+                    <!--Bairro da pessoa- -->
+                    <div class="form">
+                        <label for="bairro" id="direita"> Bairro: </label><br>
+                        <input type="text" id="bairro" name="bairro" />
+                    </div>
+                </div>
+
+                <div>
+                    <!--Cidade da pessoa- -->
+                    <div class="form">
+                        <label for="cidade" id="direita"> Cidade: </label> <br>
+                        <input type="text" id="cid" name="cid" />
+                    </div>
+                </div>
+
+                <div>
+                    <!--Estado da pessoa- -->
+                    <div class="form">
+                        <label for="estado" id="direita"> Estado: </label><br>
+                        <input type="text" id="estado" name="est" /><br>
+                    </div>
+                </div>
+            </div>
+
+
+            <button onclick="ValidarCampos()">Enviar!</button>
+        </div>
+    </div>
+
+
+    <div id="rodape">
+        <!--Imagem de Redes sociais-->
+        <div id="GitHub"> <a href="https://github.com/93DaniloRicardo" target="_blank"> <img class="GitHub"
+                    src="style/GitHub-Mark.png" />Danilo Ricardo de Oliveira</a></div>
+        <div id="LinkedIn"><a href="https://www.linkedin.com/in/danilo-ricardo/" target="_blank"> <img class="LinkedIn"
+                    src="style/linkedin.png" />Danilo Ricardo de Oliveira</a></div>
+    </div>
+</body>
+
+</html>
+
+<script src="Index_js.js"></script>

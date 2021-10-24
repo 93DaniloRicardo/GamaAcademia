@@ -1,0 +1,56 @@
+body{
+    background-color: #1a690e;
+}
+
+#cabecalho{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+    background-color: #d7f7d2;
+}
+#menuNav{
+    border: black 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: black 2px 2px 5px;
+    background-color: #d7f7d2;
+
+}
+#titulo{
+    border: black 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #d7f7d2;
+    justify-content: space-around;
+    box-shadow: black 2px 2px 5px;
+}
+#paragrafo{
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #d7f7d2;
+    box-shadow: black 2px 2px 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-width: 100%;
+}
+.home{
+    color: #162dc7;
+}
+.cadastro{
+    color: #162dc7;
+}
+.quemSomos{
+   color: #162dc7;
+}
+
+#rodape{
+    border: black 1px solid;
+    box-shadow: black 2px 2px 5px;
+    border-radius: 10px;
+    background-color: #d7f7d2;
+}
+
+

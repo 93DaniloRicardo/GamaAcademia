@@ -1,0 +1,220 @@
+body{
+    background-color: #FFF;
+}
+
+#cabecalho{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: black 2px 2px 5px;
+    background-color: #ec7000;
+    text-align: center;
+    color: #fff;
+   
+} 
+
+.menuNav{
+    margin-top: 5px;
+    border: black 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: black 2px 2px 5px;
+    background-color: #d9d3cf;
+}
+.menuNav a{
+    color: black;
+    text-decoration: none;
+}
+
+.menuNav a:hover{
+    font-size: large;
+    text-shadow: 5px;
+    text-decoration: none;
+}
+#direita{
+    margin-left: 10px;
+}
+#formulario{
+    border: black 1px solid;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 5px;
+    background-color: #d9d3cf;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.inputTxt { 
+    margin-bottom: 10px;
+    border-radius: 30px; 
+    width: 500px;
+    line-height: 30px;
+    padding-left: 7px;
+}
+
+/* #email{
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    width: 19rem;
+} */
+
+/* #nasc{
+    
+} */
+#RG_CPF{
+    display:flex
+}
+#RG {
+    width: 250px;
+}
+#CPF{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 250px;
+    line-height: 30px;
+    padding-left: 7px;
+}
+#tel_cel{
+    display: flex;
+}
+#tel{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 500px;
+    line-height: 30px;
+    padding-left: 7px
+}
+#cel{
+    border-radius: 30px;
+    width: 500px;
+    line-height: 30px;
+    padding-left: 7px
+}
+#end_num{
+    display: flex;
+}
+#end{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 550px;
+    line-height: 30px;
+    padding-left: 7px;
+    
+}
+#num{
+    border-radius: 30px;
+    width: 80px;
+    line-height: 30px;
+    padding-left: 7px;
+    
+}
+#CEP{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 250px;
+    line-height: 30px;
+    padding-left: 7px
+}
+#bai_cid_est{
+    display: flex;
+}
+
+#bairro{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 300px;
+    line-height: 30px;
+    padding-left: 7px
+}
+
+#cid{
+    border-radius: 30px;
+    width: 300px;
+    line-height: 30px;
+    padding-left: 7px
+}
+#estado{
+    border-radius: 30px;
+    width: 300px;
+    line-height: 30px;
+    padding-left: 7px
+}
+
+.form{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    border-radius: 1rem;
+    background-color:  white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+   
+}
+#rodape{
+    border: black 1px solid;
+    box-shadow: black 2px 2px 5px;
+    border-radius: 10px;
+    background-color: #d9d3cf;
+    
+}
+#rodape a{
+    color: black;
+    text-decoration: none;
+}
+
+#rodape a:hover{
+    font-size: large;
+    text-shadow: 5px;
+    text-decoration: none;
+}
+
+.GitHub{
+    margin-left: 10px;
+    width: 20px;
+    border-radius: 5px;
+
+}
+.LinkedIn{
+    margin-left: 10px;
+    width: 20px;
+    border-radius: 5px;
+
+}
+
+#descricao{
+    border: black 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #d9d3cf;
+    box-shadow: black 2px 2px 5px;
+}
+.bem_vindo{
+    margin-left: 10px;
+}
+
+#Bot_Bem_Vindo{
+    background-color: white;
+    color: black;
+}
+
+#paragrafo{
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #d9d3cf;
+    box-shadow: black 2px 2px 5px;
+    margin-bottom: 10px;
+}
+
+#sucesso{
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #d9d3cf;
+    box-shadow: black 2px 2px 5px;
+    margin-bottom: 10px;
+
+}
